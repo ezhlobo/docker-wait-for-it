@@ -9,4 +9,7 @@ docker run --rm ezhlobo/wait-for-it <...>
 
 # e.g.
 docker run --rm ezhlobo/wait-for-it google.com:80
+
+# await service from docker-compose
+docker run --rm --network compose_app_default ezhlobo/wait-for-it db:80
 ```
